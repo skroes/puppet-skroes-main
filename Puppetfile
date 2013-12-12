@@ -1,5 +1,5 @@
-mod 'testlocaldir',
-  :git => '/home/skroes/git/publictest/.git'
+mod 'examplemod',
+  :git => 'https://github.com/adrienthebo/r10k.git'
 
-mod 'git-hooks'
-  :git => '/home/skroes/git/thirdparty/git-hooks'
+mod 'examplegit-hooks',
+  :git => 'https://github.com/icefox/git-hooks.git'

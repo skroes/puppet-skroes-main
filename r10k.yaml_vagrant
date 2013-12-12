@@ -1,0 +1,11 @@
+# The location to use for storing cached Git repos
+:cachedir: '/var/cache/r10k'
+ 
+# A list of git repositories to create
+:sources:
+  :main:
+    remote: '/upstream/puppet-skroes-main'
+    basedir: '/etc/puppet/environments'
+  :shared:
+    remote: '/upstream/puppet-skroes-shared'
+    basedir: '/etc/puppet/environments'
