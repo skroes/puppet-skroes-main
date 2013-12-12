@@ -1,5 +1,5 @@
-mod 'examplemod',
-  :git => 'https://github.com/adrienthebo/r10k.git'
+mod 'roles',
+  :git => 'git@bitbucket.org/maz0p/puppet-skroes-roles.git'
 
-mod 'examplegit-hooks',
+mod 'name/fancy',
   :git => 'https://github.com/icefox/git-hooks.git'
