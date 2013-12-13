@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+for fileaction in check purge install; do
+  echo -n "[$fileaction]"
+  r10k -v WARN puppetfile ${fileaction}
+done
